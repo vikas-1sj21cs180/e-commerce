@@ -1,0 +1,60 @@
+span {
+            color: yellow;
+        }
+
+        .main {
+            display: flex;
+            gap: 20px
+        }
+
+        img {
+            height: 300px;
+            width: 300px;
+        }
+
+        p {
+            text-decoration: solid;
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+
+        .container {
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-left: 280px;
+            text-transform: capitalize;
+        }
+
+        li {
+            font-size: 20px;
+        }
+
+        .contentNav {
+            padding: 0%;
+            color: white;
+            height: 60px;
+            gap: 70px;
+            background-color: #805572;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .intern{
+            font-size: 20px;
+        }
+        .dhee{
+            font-size: 20px;
+        }
+        #container #b1{
+            font-weight: 300;
+            text-shadow: blueviolet;
+            font-size: large;
+        }
+        .border{
+            border-radius: 20px;
+        }

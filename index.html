@@ -2,80 +2,93 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>group page</title>
-    <style>
-        body {
-            background-color: rgb(207, 103, 103);
-            color: white;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>group page</title>
+  <style>
+    body {
+      background-color: rgb(207, 103, 103);
+      color: white;
+    }
 
-        span {
-            color: yellow;
-        }
+    span {
+      color: yellow;
+    }
 
-        .mini-container {
-            display: flex;
-            gap: 30px;
-        }
+    .mini-container {
+      display: flex;
+      gap: 30px;
+    }
 
-        .image1 img {
-            height: 220px;
-            width: 90px;
-        }
+    .image1 img {
+      height: 220px;
+      width: 90px;
+    }
 
-        .anchor1 {
-            margin-left: 200px;
-            margin-top: 200px;
-            /* padding: 40px; */
-        }
-    </style>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    .anchor1 {
+      margin-left: 200px;
+      margin-top: 200px;
+      /* padding: 40px; */
+    }
+    .cards{
+      display: flex;
+      gap: 30px;
+      
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
+    }
+    .card img{
+      height: 350px;
+      
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
   <div class="container">
     <h1>Group of <span>personal portfolio</span></h1>
     <br>
@@ -107,43 +120,70 @@
             <a href="Aman.html" class="anchor1"><button>view portfolio</button></a>
         </div> -->
     <div class="cards">
+      
       <div class="card" style="width: 18rem;">
-        <img src="my-profile-img2.jpg" class="card-img-top" alt="oops!">
+        <img src="vikasphoto.jpg" class="card-img-top" alt="oops!">
         <div class="card-body">
-          <h5 class="card-title">My portfolio</h5>
+          <h5 class="card-title">Vikas portfolio</h5>
           <p class="card-text">I am vikas v from dhee coding labs a full stack java developer Lorem ipsum dolor, sit
             amet consectetur adipisicing elit. Necessitatibus eos atque consequuntur error blanditiis tempore,
             laboriosam sunt dignissimos minima, quos eligendi expedita architecto? Eos ipsa officiis atque praesentium
             reiciendis nihil.</p>
           <a href="vikas.html" class="btn btn-primary">view portfolio</a>
           <br>
+        </div>
+        </div>
+
           <div class="card" style="width: 18rem;">
-            <img src="IMG-20250505-WA0002.jpg" class="card-img-top"
-              alt="oops!">
+            <img src="amanphoto.jpg" class="card-img-top" alt="oops!">
             <div class="card-body">
-              <h5 class="card-title">My portfolio</h5>
+              <h5 class="card-title">Aman portfolio</h5>
               <p class="card-text">I am Aman from dhee coding labs a full stack java developer Lorem ipsum dolor, sit
                 amet consectetur adipisicing elit. Necessitatibus eos atque consequuntur error blanditiis tempore,
                 laboriosam sunt dignissimos minima, quos eligendi expedita architecto? Eos ipsa officiis atque
                 praesentium reiciendis nihil.</p>
               <a href="Aman.html" class="btn btn-primary">view portfolio</a>
-              <div class="card" style="width: 18rem;">
-                <img src="WhatsApp Image 2025-05-12 at 11.03.05_64ffb9a5.jpg" class="card-img-top" alt="oops!">
-                <div class="card-body">
-                  <h5 class="card-title">My portfolio</h5>
-                  <p class="card-text">I am Sandesh B K from dhee coding labs a full stack java developer Lorem ipsum dolor, sit
-                    amet consectetur adipisicing elit. Necessitatibus eos atque consequuntur error blanditiis tempore,
-                    laboriosam sunt dignissimos minima, quos eligendi expedita architecto? Eos ipsa officiis atque praesentium
-                    reiciendis nihil.</p>
-                  <a href="sandesh.html" class="btn btn-primary">view portfolio</a>
-                  <br>
+              <br>
             </div>
           </div>
-        </div>
-        <hr>
+            
+
+
+
+              <div class="card" style="width: 18rem;">
+                <img src="thaheer.jpg" class="card-img-top" alt="oops!">
+                <div class="card-body">
+                  <h5 class="card-title">Thaheer portfolio</h5>
+                  <p class="card-text">I am thaheer from dhee coding labs a full stack java developer Lorem ipsum dolor,
+                    sit
+                    amet consectetur adipisicing elit. Necessitatibus eos atque consequuntur error blanditiis tempore,
+                    laboriosam sunt dignissimos minima, quos eligendi expedita architecto? Eos ipsa officiis atque
+                    praesentium reiciendis nihil.</p>
+                  <a href="thaheer.html" class="btn btn-primary">view portfolio</a>
+
+                </div>
+              </div>
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="sandeshphoto.jpg" class="card-img-top" alt="oops!">
+                    <div class="card-body">
+                      <h5 class="card-title">sandesh portfolio</h5>
+                      <p class="card-text">I am Sandesh B K from dhee coding labs a full stack java developer Lorem
+                        ipsum dolor, sit
+                        amet consectetur adipisicing elit. Necessitatibus eos atque consequuntur error blanditiis
+                        tempore,
+                        laboriosam sunt dignissimos minima, quos eligendi expedita architecto? Eos ipsa officiis atque
+                        praesentium
+                        reiciendis nihil.</p>
+                      <a href="sandesh.html" class="btn btn-primary">view portfolio</a>
+                      <br>
+                    </div>
+                  </div>
+
+
+                <hr>
       </div>
-    </div>
-  </div>
+    
 </body>
 
 </html>
